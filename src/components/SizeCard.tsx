@@ -21,12 +21,19 @@ export const SizeCard = () => {
       >
         {(data: AreaResults) => (
           <p>
-            📐
             <Trans i18nKey="SizeCard sketch size message">
               This sketch is{" "}
               <b>{{ area: Number.format(Math.round(data.area * 1e-6)) }}</b>{" "}
               square kilometers
-            </Trans>
+            </Trans>{" "}
+            —{" "}
+            <b>
+              {((data.area * 1e-6) / 458).toLocaleString("en", {
+                style: "percent",
+                minimumFractionDigits: 1,
+              })}
+            </b>{" "}
+            of Barbuda's 3nm jurisdiction{" "}
           </p>
         )}
       </ResultsCard>
