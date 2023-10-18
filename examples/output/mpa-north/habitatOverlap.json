@@ -1,0 +1,118 @@
+{
+  "metrics": [
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21141",
+      "classId": "Continuous Reef",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2858142.1311171735,
+      "extra": {
+        "sketchName": "mpa-north"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21141",
+      "classId": "Deep Water",
+      "groupId": null,
+      "geographyId": null,
+      "value": 160866.02242272135,
+      "extra": {
+        "sketchName": "mpa-north"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21141",
+      "classId": "Hard Bottom",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12683714.134063115,
+      "extra": {
+        "sketchName": "mpa-north"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21141",
+      "classId": "Patch Reef",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2146025.5894537005,
+      "extra": {
+        "sketchName": "mpa-north"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21141",
+      "classId": "Sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3502310.330176779,
+      "extra": {
+        "sketchName": "mpa-north"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21141",
+      "classId": "Seagrass",
+      "groupId": null,
+      "geographyId": null,
+      "value": 9385139.755375724,
+      "extra": {
+        "sketchName": "mpa-north"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 21141,
+    "bbox": [
+      -61.89043,
+      17.715027,
+      -61.80613,
+      17.762018
+    ],
+    "type": "Feature",
+    "properties": {
+      "5045": "mpa-north",
+      "5046": "full",
+      "id": "21141",
+      "name": "mpa-north",
+      "postId": null,
+      "userId": "128",
+      "comments": null,
+      "userSlug": "Peter",
+      "createdAt": "2023-10-12T20:09:46.730982+00:00",
+      "updatedAt": "2023-10-12T20:09:46.730982+00:00",
+      "designation": "full",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "553",
+      "userAttributes": [
+        {
+          "label": "Designation",
+          "value": "full",
+          "exportId": "designation",
+          "fieldType": "ComboBox",
+          "valueLabel": "Fully Protected",
+          "formElementId": 5046,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "exportId": "comments",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5047,
+          "alternateLanguages": {}
+        }
+      ]
+    },
+    "geometry": null
+  }
+}

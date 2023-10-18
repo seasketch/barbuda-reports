@@ -1,0 +1,325 @@
+{
+  "metrics": [
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21141",
+      "classId": "Continuous Reef",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2858142.1311171735,
+      "extra": {
+        "sketchName": "mpa-north"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21234",
+      "classId": "Continuous Reef",
+      "groupId": null,
+      "geographyId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa-south"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21235",
+      "classId": "Continuous Reef",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2858142.1311171735,
+      "extra": {
+        "sketchName": "collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21141",
+      "classId": "Deep Water",
+      "groupId": null,
+      "geographyId": null,
+      "value": 160866.02242272135,
+      "extra": {
+        "sketchName": "mpa-north"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21234",
+      "classId": "Deep Water",
+      "groupId": null,
+      "geographyId": null,
+      "value": 126763.5315038347,
+      "extra": {
+        "sketchName": "mpa-south"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21235",
+      "classId": "Deep Water",
+      "groupId": null,
+      "geographyId": null,
+      "value": 287629.553926556,
+      "extra": {
+        "sketchName": "collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21141",
+      "classId": "Hard Bottom",
+      "groupId": null,
+      "geographyId": null,
+      "value": 12683714.134063115,
+      "extra": {
+        "sketchName": "mpa-north"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21234",
+      "classId": "Hard Bottom",
+      "groupId": null,
+      "geographyId": null,
+      "value": 6915322.325060717,
+      "extra": {
+        "sketchName": "mpa-south"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21235",
+      "classId": "Hard Bottom",
+      "groupId": null,
+      "geographyId": null,
+      "value": 19599036.45912383,
+      "extra": {
+        "sketchName": "collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21141",
+      "classId": "Patch Reef",
+      "groupId": null,
+      "geographyId": null,
+      "value": 2146025.5894537005,
+      "extra": {
+        "sketchName": "mpa-north"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21234",
+      "classId": "Patch Reef",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3036657.1797957174,
+      "extra": {
+        "sketchName": "mpa-south"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21235",
+      "classId": "Patch Reef",
+      "groupId": null,
+      "geographyId": null,
+      "value": 5182682.769249418,
+      "extra": {
+        "sketchName": "collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21141",
+      "classId": "Sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3502310.330176779,
+      "extra": {
+        "sketchName": "mpa-north"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21234",
+      "classId": "Sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 3499910.71419195,
+      "extra": {
+        "sketchName": "mpa-south"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21235",
+      "classId": "Sand",
+      "groupId": null,
+      "geographyId": null,
+      "value": 7002221.044368729,
+      "extra": {
+        "sketchName": "collection",
+        "isCollection": true
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21141",
+      "classId": "Seagrass",
+      "groupId": null,
+      "geographyId": null,
+      "value": 9385139.755375724,
+      "extra": {
+        "sketchName": "mpa-north"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21234",
+      "classId": "Seagrass",
+      "groupId": null,
+      "geographyId": null,
+      "value": 334993.2182785425,
+      "extra": {
+        "sketchName": "mpa-south"
+      }
+    },
+    {
+      "metricId": "habitatOverlap",
+      "sketchId": "21235",
+      "classId": "Seagrass",
+      "groupId": null,
+      "geographyId": null,
+      "value": 9720132.973654266,
+      "extra": {
+        "sketchName": "collection",
+        "isCollection": true
+      }
+    }
+  ],
+  "sketch": {
+    "id": 21235,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 21141,
+        "bbox": [
+          -61.89043,
+          17.715027,
+          -61.80613,
+          17.762018
+        ],
+        "type": "Feature",
+        "properties": {
+          "5045": "mpa-north",
+          "5046": "full",
+          "id": "21141",
+          "name": "mpa-north",
+          "postId": null,
+          "userId": "128",
+          "comments": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-10-12T20:09:46.730982+00:00",
+          "updatedAt": "2023-10-17T20:34:59.405701+00:00",
+          "designation": "full",
+          "collectionId": "21235",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "553",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "full",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 5046,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 5047,
+              "alternateLanguages": {}
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 21234,
+        "bbox": [
+          -61.78312,
+          17.516863,
+          -61.699093,
+          17.537636
+        ],
+        "type": "Feature",
+        "properties": {
+          "5045": "mpa-south",
+          "5046": "full",
+          "id": "21234",
+          "name": "mpa-south",
+          "postId": null,
+          "userId": "128",
+          "comments": null,
+          "userSlug": "Peter",
+          "createdAt": "2023-10-17T20:34:22.330928+00:00",
+          "updatedAt": "2023-10-17T20:35:00.849778+00:00",
+          "designation": "full",
+          "collectionId": "21235",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "553",
+          "userAttributes": [
+            {
+              "label": "Designation",
+              "value": "full",
+              "exportId": "designation",
+              "fieldType": "ComboBox",
+              "valueLabel": "Fully Protected",
+              "formElementId": 5046,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Comments",
+              "value": null,
+              "exportId": "comments",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 5047,
+              "alternateLanguages": {}
+            }
+          ]
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "5080": "collection",
+      "id": "21235",
+      "name": "collection",
+      "postId": null,
+      "userId": "128",
+      "userSlug": "Peter",
+      "createdAt": "2023-10-17T20:34:55.730533+00:00",
+      "updatedAt": "2023-10-17T20:35:00.849778+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "560",
+      "userAttributes": null
+    }
+  }
+}

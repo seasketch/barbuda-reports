@@ -10,4 +10,66 @@
           "layerId": ""
       }
   ]
+},
+{
+  "metricId": "habitatOverlap",
+  "type": "areaOverlap",
+  "layerId": "",
+  "classes": [
+    {
+      "classId": "Continuous Reef",
+      "classKey": "HabType",
+      "display": "Continuous Reef",
+      "datasourceId": "seafloor_habitats",
+      "objectiveId": ""
+    },
+    {
+      "classId": "Deep Water",
+      "classKey": "HabType",
+      "display": "Deep Water",
+      "datasourceId": "seafloor_habitats",
+      "objectiveId": ""
+    },
+    {
+      "classId": "Hard Bottom",
+      "classKey": "HabType",
+      "display": "Hard Bottom",
+      "datasourceId": "seafloor_habitats",
+      "objectiveId": ""
+    },
+    {
+      "classId": "Patch Reef",
+      "classKey": "HabType",
+      "display": "Patch Reef",
+      "datasourceId": "seafloor_habitats",
+      "objectiveId": ""
+    },
+    {
+      "classId": "Sand",
+      "classKey": "HabType",
+      "display": "Sand",
+      "datasourceId": "seafloor_habitats",
+      "objectiveId": ""
+    },
+    {
+      "classId": "Seagrass",
+      "classKey": "HabType",
+      "display": "Seagrass",
+      "datasourceId": "seafloor_habitats",
+      "objectiveId": ""
+    }
+  ]
+},
+{
+  "metricId": "fishingValueOverlap",
+  "type": "valueOverlap",
+  "layerId": "",
+  "classes": [
+    {
+      "classId": "fishing_value",
+      "display": "Fishing Value",
+      "datasourceId": "fishing_value",
+      "objectiveId": ""
+    }
+  ]
 }]

@@ -1,0 +1,63 @@
+{
+  "metrics": [
+    {
+      "metricId": "fishingValueOverlap",
+      "sketchId": "21141",
+      "classId": "fishing_value",
+      "groupId": null,
+      "geographyId": null,
+      "value": 168575.86271429062,
+      "extra": {
+        "sketchName": "mpa-north"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 21141,
+    "bbox": [
+      -61.89043,
+      17.715027,
+      -61.80613,
+      17.762018
+    ],
+    "type": "Feature",
+    "properties": {
+      "5045": "mpa-north",
+      "5046": "full",
+      "id": "21141",
+      "name": "mpa-north",
+      "postId": null,
+      "userId": "128",
+      "comments": null,
+      "userSlug": "Peter",
+      "createdAt": "2023-10-12T20:09:46.730982+00:00",
+      "updatedAt": "2023-10-12T20:09:46.730982+00:00",
+      "designation": "full",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "553",
+      "userAttributes": [
+        {
+          "label": "Designation",
+          "value": "full",
+          "exportId": "designation",
+          "fieldType": "ComboBox",
+          "valueLabel": "Fully Protected",
+          "formElementId": 5046,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Comments",
+          "value": null,
+          "exportId": "comments",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 5047,
+          "alternateLanguages": {}
+        }
+      ]
+    },
+    "geometry": null
+  }
+}
