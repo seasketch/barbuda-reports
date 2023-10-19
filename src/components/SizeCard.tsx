@@ -1,12 +1,14 @@
 import React from "react";
 import { Trans, useTranslation } from "react-i18next";
-import { ResultsCard, Skeleton } from "@seasketch/geoprocessing/client-ui";
+import { ResultsCard } from "@seasketch/geoprocessing/client-ui";
 // Import the results type definition from your functions to type-check your
 // component render functions
 import { AreaResults } from "../functions/area";
 import Translator from "../components/TranslatorAsync";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
+const areaToMiles = (area: number) =>
+  Number.format(Math.round(area * 3.86102e-7));
 
 /**
  * SizeCard component
@@ -21,10 +23,9 @@ export const SizeCard = () => {
       >
         {(data: AreaResults) => (
           <p>
-            <Trans i18nKey="SizeCard sketch size message">
-              This sketch is{" "}
-              <b>{{ area: Number.format(Math.round(data.area * 1e-6)) }}</b>{" "}
-              square kilometers
+            <Trans i18nKey="Size message miles">
+              This sketch is <b>{{ area: areaToMiles(data.area) }}</b> square
+              miles
             </Trans>{" "}
             —{" "}
             <b>

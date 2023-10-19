@@ -1,4 +1,4 @@
-import { findMinBoundingRect } from "./minimum-bounding-rectangle/minBoundingRectangle";
+import { findMinBoundingRect } from "./minBoundingRectangle";
 import { polygon } from "@turf/helpers";
 import distance from "@turf/distance";
 import {

@@ -15,10 +15,13 @@
     }
   ],
   "preprocessingFunctions": [
-    "src/functions/clipToLand.ts",
+    "src/functions/clipTo3nm.ts",
     "src/functions/clipToOcean.ts"
   ],
   "geoprocessingFunctions": [
-    "src/functions/area.ts"
+    "src/functions/area.ts",
+    "src/functions/minWidth.ts",
+    "src/functions/habitatOverlap.ts",
+    "src/functions/fishingValueOverlap.ts"
   ]
 }

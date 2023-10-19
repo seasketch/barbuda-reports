@@ -141,7 +141,7 @@ export const HabitatCard = () => {
                   <p>
                     {" "}
                     This report summarizes seafloor habitat overlap within this
-                    plan.
+                    plan based on data from the National Coral Reef Institute.
                   </p>
                   <p>
                     If zone boundaries overlap with each other, the overlap is

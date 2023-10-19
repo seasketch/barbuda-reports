@@ -70,25 +70,47 @@
     ]
   },
   {
-    "src": "data/src/Barbuda_Blue_Halo/Data for SeaSketch Next/fishvalue/tiff/FishValue.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "fishing_value",
-    "formats": [
-      "tif"
-    ],
-    "created": "2023-10-18T22:05:04.100Z",
-    "lastUpdated": "2023-10-18T22:05:04.100Z",
+    "geo_type": "raster",
     "keyStats": {
       "total": {
         "total": {
-          "sum": 903424.1280997097,
           "count": null,
+          "sum": 903424.1280997097,
           "area": null
         }
       }
     },
+    "formats": [
+      "tif"
+    ],
+    "measurementType": "quantitative",
+    "band": 1,
     "noDataValue": 0,
-    "measurementType": "quantitative"
+    "created": "2023-10-18T22:05:04.100Z",
+    "lastUpdated": "2023-10-18T22:05:04.100Z",
+    "src": "data/src/Barbuda_Blue_Halo/Data for SeaSketch Next/fishvalue/tiff/FishValue.tif"
+  },
+  {
+    "src": "data/src/Barbuda_Blue_Halo/Data for SeaSketch Next/barbuda-3nm-jurisdiction.geojson",
+    "layerName": "barbuda-3nm-jurisdiction",
+    "geo_type": "vector",
+    "datasourceId": "3nm-jurisdiction",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2023-10-19T18:35:09.971Z",
+    "lastUpdated": "2023-10-19T18:35:09.971Z",
+    "keyStats": {
+      "total": {
+        "total": {
+          "count": 9,
+          "sum": null,
+          "area": 459241919.7508444
+        }
+      }
+    },
+    "propertiesToKeep": []
   }
 ]
